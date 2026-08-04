@@ -1,0 +1,25 @@
+MMLongBench-Doc-V2
+
+Derived from MMLongBench-Doc (https://github.com/mayubo2333/MMLongBench-Doc),
+licensed under the Apache License, Version 2.0.
+
+Relationship to the upstream release:
+
+  data/samples.json
+      1,081 questions, unchanged from upstream except for 106 corrected
+      annotations and one duplicate row removed. Every change is
+      documented in data/corrections/.
+
+  data/question_types.json
+      New in V2. Model-produced labels (task_type, requires_visual); not
+      human-verified and not part of the ground truth.
+
+  data/corrections/
+      New in V2. data/corrections/samples_v1.json is upstream's
+      original samples.json, redistributed unmodified for diffing.
+
+  eval/
+      Entirely new in V2. Upstream's scoring pipeline -- eval_score.py,
+      extract_answer.py and prompt_for_answer_extraction.md -- is NOT
+      included; V2 scores with an LLM judge instead. No upstream source
+      code is redistributed here.

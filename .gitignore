@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+
+# Source PDFs are not distributed here — see README.
+data/documents/
+
+# Report sources are kept out of the published repo.
+report/
