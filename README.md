@@ -1,7 +1,6 @@
 # MMLongBench-Doc-V2
 
-A corrected-annotation, semantics-aware version of
-[MMLongBench-Doc](https://github.com/mayubo2333/MMLongBench-Doc).
+A corrected-annotation, semantics-aware version of MMLongBench-Doc, you can find a technical report [here](https://arxiv.org/abs/2608.03397).
 
 Two changes from v1, both aimed at the same thing — making the score reflect whether the system
 actually answered the question:
