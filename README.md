@@ -234,4 +234,11 @@ MMLongBench-Doc; `eval/` is new and contains no upstream code. See [`NOTICE`](NO
   journal={arXiv preprint arXiv:2407.01523},
   year={2024}
 }
+@article{zhang2026mmlongbenchdocv2,
+   title={MMLongBench-Doc-V2: A Corrected-Annotation, Semantics-Aware Revision of MMLongBench-Doc}, 
+   author={Mingtian Zhang},
+   year={2026},
+   eprint={2608.03397},
+   url={https://arxiv.org/abs/2608.03397}, 
+}
 ```
